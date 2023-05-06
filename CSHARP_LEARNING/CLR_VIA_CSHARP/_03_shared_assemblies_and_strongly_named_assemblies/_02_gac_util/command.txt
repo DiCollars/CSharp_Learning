@@ -1,0 +1,37 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\dicol> cd C:\Users\dicol\Desktop
+PS C:\Users\dicol\Desktop> gacutil /i program.exe
+Microsoft (R) .NET Global Assembly Cache Utility.  Version 4.0.30319.0
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Assembly successfully added to the cache
+PS C:\Users\dicol\Desktop> gacutil /l
+Microsoft (R) .NET Global Assembly Cache Utility.  Version 4.0.30319.0
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+The Global Assembly Cache contains the following assemblies:
+  CustomMarshalers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=AMD64
+  ISymWrapper, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=AMD64
+  ...
+  PresentationFramework.resources, Version=4.0.0.0, Culture=ru, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL
+  PresentationFramework.Royale, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL
+  PresentationUI, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL
+  PresentationUI.resources, Version=4.0.0.0, Culture=ru, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL
+  program, Version=0.0.0.0, Culture=neutral, PublicKeyToken=9728963ad0c8ab3e, processorArchitecture=MSIL
+  ReachFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL
+
+Number of items = 1156
+PS C:\Users\dicol\Desktop> gacutil /u program
+Microsoft (R) .NET Global Assembly Cache Utility.  Version 4.0.30319.0
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+
+Assembly: program, Version=0.0.0.0, Culture=neutral, PublicKeyToken=9728963ad0c8ab3e, processorArchitecture=MSIL
+Uninstalled: program, Version=0.0.0.0, Culture=neutral, PublicKeyToken=9728963ad0c8ab3e, processorArchitecture=MSIL
+Number of assemblies uninstalled = 1
+Number of failures = 0
+PS C:\Users\dicol\Desktop>

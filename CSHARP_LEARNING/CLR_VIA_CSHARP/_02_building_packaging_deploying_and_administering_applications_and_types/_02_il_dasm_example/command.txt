@@ -1,0 +1,5 @@
+csc.exe /t:module clock.cs
+
+csc.exe /t:module toCheckMetadata.cs
+
+csc.exe /t:exe /out:Clock.exe /addmodule:clock.netmodule /addmodule:toCheckMetadata.netmodule ClockApp.cs

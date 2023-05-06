@@ -1,0 +1,9 @@
+csc /keyfile:Test.PublicKey /delaysign /out:program.exe program.cs
+
+SN.exe -Vr program.exe
+
+SN.exe -R program.exe Test.snk
+
+SN.exe -Vu program.exe
+
+gacutil /i program.exe

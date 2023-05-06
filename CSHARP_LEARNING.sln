@@ -1,0 +1,158 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CLR_VIA_CSHARP", "CLR_VIA_CSHARP", "{48DE6CF4-E9CC-493E-9639-0971B6A26A99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_02_building_packaging_deploying_and_administering_applications_and_types", "_02_building_packaging_deploying_and_administering_applications_and_types", "{7D3BA32D-F652-4EA3-8056-EE771B6EF8BB}"
+	ProjectSection(SolutionItems) = preProject
+		CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\base_config_for_windows_11.txt = CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\base_config_for_windows_11.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_03_shared_assemblies_and_strongly_named_assemblies", "_03_shared_assemblies_and_strongly_named_assemblies", "{34370B17-82F3-47A4-B657-805710D4A1F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_04_type_fundamentals", "_04_type_fundamentals", "{F91AF30C-0A2A-4B17-94C8-A2896ACF5FBB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_05_primitive_reference_and_value_types", "_05_primitive_reference_and_value_types", "{C0872639-D7BF-4D5E-BC89-6891C8144892}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_01_assembly_launcher", "_01_assembly_launcher", "{5FBCC499-6EDD-4CA6-9AFC-CCAE7C2E6407}"
+	ProjectSection(SolutionItems) = preProject
+		CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_01_assembly_launcher\command.txt = CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_01_assembly_launcher\command.txt
+		CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_01_assembly_launcher\program.cs = CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_01_assembly_launcher\program.cs
+		CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_01_assembly_launcher\program.exe = CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_01_assembly_launcher\program.exe
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_02_il_dasm_example", "_02_il_dasm_example", "{B7A73810-BFED-4292-938E-98E511A52FBF}"
+	ProjectSection(SolutionItems) = preProject
+		CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_02_il_dasm_example\clock.cs = CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_02_il_dasm_example\clock.cs
+		CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_02_il_dasm_example\Clock.exe = CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_02_il_dasm_example\Clock.exe
+		CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_02_il_dasm_example\clock.netmodule = CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_02_il_dasm_example\clock.netmodule
+		CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_02_il_dasm_example\ClockApp.cs = CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_02_il_dasm_example\ClockApp.cs
+		CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_02_il_dasm_example\command.txt = CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_02_il_dasm_example\command.txt
+		CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_02_il_dasm_example\toCheckMetadata.cs = CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_02_il_dasm_example\toCheckMetadata.cs
+		CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_02_il_dasm_example\toCheckMetadata.netmodule = CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_02_il_dasm_example\toCheckMetadata.netmodule
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_03_assembly_linker", "_03_assembly_linker", "{63442F2E-CE8F-488F-8EB8-BCBD8DB8724B}"
+	ProjectSection(SolutionItems) = preProject
+		CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_03_assembly_linker\cheker.netmodule = CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_03_assembly_linker\cheker.netmodule
+		CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_03_assembly_linker\clock.cs = CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_03_assembly_linker\clock.cs
+		CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_03_assembly_linker\clock.netmodule = CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_03_assembly_linker\clock.netmodule
+		CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_03_assembly_linker\command.txt = CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_03_assembly_linker\command.txt
+		CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_03_assembly_linker\result.exe = CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_03_assembly_linker\result.exe
+		CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_03_assembly_linker\toCheckMetadata.cs = CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_03_assembly_linker\toCheckMetadata.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_04_metadata_example_1", "_04_metadata_example_1", "{3405C007-206F-46D5-B0CF-894DAD49E4D6}"
+	ProjectSection(SolutionItems) = preProject
+		CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_04_metadata_example_1\command.txt = CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_04_metadata_example_1\command.txt
+		CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_04_metadata_example_1\metadata.txt = CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_04_metadata_example_1\metadata.txt
+		CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_04_metadata_example_1\toCheckMetadata.cs = CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_04_metadata_example_1\toCheckMetadata.cs
+		CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_04_metadata_example_1\toCheckMetadata.netmodule = CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_04_metadata_example_1\toCheckMetadata.netmodule
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_05_metadata_example_2", "_05_metadata_example_2", "{CC7DD5E8-9E97-4972-B88B-41ED4235F7D7}"
+	ProjectSection(SolutionItems) = preProject
+		CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_05_metadata_example_2\CheckMetadata.exe = CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_05_metadata_example_2\CheckMetadata.exe
+		CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_05_metadata_example_2\command.txt = CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_05_metadata_example_2\command.txt
+		CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_05_metadata_example_2\metadata.txt = CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_05_metadata_example_2\metadata.txt
+		CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_05_metadata_example_2\toCheckMetadata.cs = CSHARP_LEARNING\CLR_VIA_CSHARP\_02_building_packaging_deploying_and_administering_applications_and_types\_05_metadata_example_2\toCheckMetadata.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_01_test_keys_by_sn_exe", "_01_test_keys_by_sn_exe", "{93D1DBFE-53B6-4A68-918A-ACD22C90BB4C}"
+	ProjectSection(SolutionItems) = preProject
+		CSHARP_LEARNING\CLR_VIA_CSHARP\_03_shared_assemblies_and_strongly_named_assemblies\_01_test_keys_by_sn_exe\manifest_with_key.txt.txt = CSHARP_LEARNING\CLR_VIA_CSHARP\_03_shared_assemblies_and_strongly_named_assemblies\_01_test_keys_by_sn_exe\manifest_with_key.txt.txt
+		CSHARP_LEARNING\CLR_VIA_CSHARP\_03_shared_assemblies_and_strongly_named_assemblies\_01_test_keys_by_sn_exe\manifest_without_key.txt = CSHARP_LEARNING\CLR_VIA_CSHARP\_03_shared_assemblies_and_strongly_named_assemblies\_01_test_keys_by_sn_exe\manifest_without_key.txt
+		CSHARP_LEARNING\CLR_VIA_CSHARP\_03_shared_assemblies_and_strongly_named_assemblies\_01_test_keys_by_sn_exe\program.cs = CSHARP_LEARNING\CLR_VIA_CSHARP\_03_shared_assemblies_and_strongly_named_assemblies\_01_test_keys_by_sn_exe\program.cs
+		CSHARP_LEARNING\CLR_VIA_CSHARP\_03_shared_assemblies_and_strongly_named_assemblies\_01_test_keys_by_sn_exe\program.exe = CSHARP_LEARNING\CLR_VIA_CSHARP\_03_shared_assemblies_and_strongly_named_assemblies\_01_test_keys_by_sn_exe\program.exe
+		CSHARP_LEARNING\CLR_VIA_CSHARP\_03_shared_assemblies_and_strongly_named_assemblies\_01_test_keys_by_sn_exe\Test.PublicKey = CSHARP_LEARNING\CLR_VIA_CSHARP\_03_shared_assemblies_and_strongly_named_assemblies\_01_test_keys_by_sn_exe\Test.PublicKey
+		CSHARP_LEARNING\CLR_VIA_CSHARP\_03_shared_assemblies_and_strongly_named_assemblies\_01_test_keys_by_sn_exe\Test.snk = CSHARP_LEARNING\CLR_VIA_CSHARP\_03_shared_assemblies_and_strongly_named_assemblies\_01_test_keys_by_sn_exe\Test.snk
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_02_gac_util", "_02_gac_util", "{B0B7BCBD-B21A-41BF-802E-C74D362DA988}"
+	ProjectSection(SolutionItems) = preProject
+		CSHARP_LEARNING\CLR_VIA_CSHARP\_03_shared_assemblies_and_strongly_named_assemblies\_02_gac_util\command.txt = CSHARP_LEARNING\CLR_VIA_CSHARP\_03_shared_assemblies_and_strongly_named_assemblies\_02_gac_util\command.txt
+		CSHARP_LEARNING\CLR_VIA_CSHARP\_03_shared_assemblies_and_strongly_named_assemblies\_02_gac_util\program.cs = CSHARP_LEARNING\CLR_VIA_CSHARP\_03_shared_assemblies_and_strongly_named_assemblies\_02_gac_util\program.cs
+		CSHARP_LEARNING\CLR_VIA_CSHARP\_03_shared_assemblies_and_strongly_named_assemblies\_02_gac_util\program.exe = CSHARP_LEARNING\CLR_VIA_CSHARP\_03_shared_assemblies_and_strongly_named_assemblies\_02_gac_util\program.exe
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_03_delayed_signing", "_03_delayed_signing", "{0CA54E56-7DF3-46B2-8EC8-16C587DB6698}"
+	ProjectSection(SolutionItems) = preProject
+		CSHARP_LEARNING\CLR_VIA_CSHARP\_03_shared_assemblies_and_strongly_named_assemblies\_03_delayed_signing\commands.txt = CSHARP_LEARNING\CLR_VIA_CSHARP\_03_shared_assemblies_and_strongly_named_assemblies\_03_delayed_signing\commands.txt
+		CSHARP_LEARNING\CLR_VIA_CSHARP\_03_shared_assemblies_and_strongly_named_assemblies\_03_delayed_signing\program.cs = CSHARP_LEARNING\CLR_VIA_CSHARP\_03_shared_assemblies_and_strongly_named_assemblies\_03_delayed_signing\program.cs
+		CSHARP_LEARNING\CLR_VIA_CSHARP\_03_shared_assemblies_and_strongly_named_assemblies\_03_delayed_signing\program.exe = CSHARP_LEARNING\CLR_VIA_CSHARP\_03_shared_assemblies_and_strongly_named_assemblies\_03_delayed_signing\program.exe
+		CSHARP_LEARNING\CLR_VIA_CSHARP\_03_shared_assemblies_and_strongly_named_assemblies\_03_delayed_signing\Test.PublicKey = CSHARP_LEARNING\CLR_VIA_CSHARP\_03_shared_assemblies_and_strongly_named_assemblies\_03_delayed_signing\Test.PublicKey
+		CSHARP_LEARNING\CLR_VIA_CSHARP\_03_shared_assemblies_and_strongly_named_assemblies\_03_delayed_signing\Test.snk = CSHARP_LEARNING\CLR_VIA_CSHARP\_03_shared_assemblies_and_strongly_named_assemblies\_03_delayed_signing\Test.snk
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_01_all_types_inherited_from_the_object", "CSHARP_LEARNING\CLR_VIA_CSHARP\_04_type_fundamentals\_01_all_types_inherited_from_the_object\_01_all_types_inherited_from_the_object.csproj", "{5822CC71-2C9B-4D72-9637-76CA2F1E2082}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_02_new_operation", "CSHARP_LEARNING\CLR_VIA_CSHARP\_04_type_fundamentals\_02_new_operation\_02_new_operation.csproj", "{3E57F413-0FE5-4A32-9E5D-0641E8B5A1FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_03_typecasting", "CSHARP_LEARNING\CLR_VIA_CSHARP\_04_type_fundamentals\_03_typecasting\_03_typecasting.csproj", "{647EE506-2B17-412A-8839-40FDB2AD9DE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_04_is_as_casting", "CSHARP_LEARNING\CLR_VIA_CSHARP\_04_type_fundamentals\_04_is_as_casting\_04_is_as_casting.csproj", "{643001DC-8607-4582-824D-61C96653D866}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_05_howthings_relate_at_runtime_stack_example_1", "CSHARP_LEARNING\CLR_VIA_CSHARP\_04_type_fundamentals\_05_howthings_relate_at_runtime_stack_example_1\_05_howthings_relate_at_runtime_stack_example_1.csproj", "{B60973AA-7F9D-4D96-A90C-52F6EFF2368D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_06_howthings_relate_at_runtime_stack_example_2", "CSHARP_LEARNING\CLR_VIA_CSHARP\_04_type_fundamentals\_06_howthings_relate_at_runtime_stack_example_2\_06_howthings_relate_at_runtime_stack_example_2.csproj", "{378E4DF9-A594-41D6-9C2B-18A5EB9EB3B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5822CC71-2C9B-4D72-9637-76CA2F1E2082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5822CC71-2C9B-4D72-9637-76CA2F1E2082}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5822CC71-2C9B-4D72-9637-76CA2F1E2082}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5822CC71-2C9B-4D72-9637-76CA2F1E2082}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E57F413-0FE5-4A32-9E5D-0641E8B5A1FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E57F413-0FE5-4A32-9E5D-0641E8B5A1FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E57F413-0FE5-4A32-9E5D-0641E8B5A1FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E57F413-0FE5-4A32-9E5D-0641E8B5A1FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{647EE506-2B17-412A-8839-40FDB2AD9DE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{647EE506-2B17-412A-8839-40FDB2AD9DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{647EE506-2B17-412A-8839-40FDB2AD9DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{647EE506-2B17-412A-8839-40FDB2AD9DE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{643001DC-8607-4582-824D-61C96653D866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{643001DC-8607-4582-824D-61C96653D866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{643001DC-8607-4582-824D-61C96653D866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{643001DC-8607-4582-824D-61C96653D866}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B60973AA-7F9D-4D96-A90C-52F6EFF2368D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B60973AA-7F9D-4D96-A90C-52F6EFF2368D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B60973AA-7F9D-4D96-A90C-52F6EFF2368D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B60973AA-7F9D-4D96-A90C-52F6EFF2368D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{378E4DF9-A594-41D6-9C2B-18A5EB9EB3B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{378E4DF9-A594-41D6-9C2B-18A5EB9EB3B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{378E4DF9-A594-41D6-9C2B-18A5EB9EB3B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{378E4DF9-A594-41D6-9C2B-18A5EB9EB3B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7D3BA32D-F652-4EA3-8056-EE771B6EF8BB} = {48DE6CF4-E9CC-493E-9639-0971B6A26A99}
+		{34370B17-82F3-47A4-B657-805710D4A1F5} = {48DE6CF4-E9CC-493E-9639-0971B6A26A99}
+		{F91AF30C-0A2A-4B17-94C8-A2896ACF5FBB} = {48DE6CF4-E9CC-493E-9639-0971B6A26A99}
+		{C0872639-D7BF-4D5E-BC89-6891C8144892} = {48DE6CF4-E9CC-493E-9639-0971B6A26A99}
+		{5FBCC499-6EDD-4CA6-9AFC-CCAE7C2E6407} = {7D3BA32D-F652-4EA3-8056-EE771B6EF8BB}
+		{B7A73810-BFED-4292-938E-98E511A52FBF} = {7D3BA32D-F652-4EA3-8056-EE771B6EF8BB}
+		{63442F2E-CE8F-488F-8EB8-BCBD8DB8724B} = {7D3BA32D-F652-4EA3-8056-EE771B6EF8BB}
+		{3405C007-206F-46D5-B0CF-894DAD49E4D6} = {7D3BA32D-F652-4EA3-8056-EE771B6EF8BB}
+		{CC7DD5E8-9E97-4972-B88B-41ED4235F7D7} = {7D3BA32D-F652-4EA3-8056-EE771B6EF8BB}
+		{93D1DBFE-53B6-4A68-918A-ACD22C90BB4C} = {34370B17-82F3-47A4-B657-805710D4A1F5}
+		{B0B7BCBD-B21A-41BF-802E-C74D362DA988} = {34370B17-82F3-47A4-B657-805710D4A1F5}
+		{0CA54E56-7DF3-46B2-8EC8-16C587DB6698} = {34370B17-82F3-47A4-B657-805710D4A1F5}
+		{5822CC71-2C9B-4D72-9637-76CA2F1E2082} = {F91AF30C-0A2A-4B17-94C8-A2896ACF5FBB}
+		{3E57F413-0FE5-4A32-9E5D-0641E8B5A1FB} = {F91AF30C-0A2A-4B17-94C8-A2896ACF5FBB}
+		{647EE506-2B17-412A-8839-40FDB2AD9DE3} = {F91AF30C-0A2A-4B17-94C8-A2896ACF5FBB}
+		{643001DC-8607-4582-824D-61C96653D866} = {F91AF30C-0A2A-4B17-94C8-A2896ACF5FBB}
+		{B60973AA-7F9D-4D96-A90C-52F6EFF2368D} = {F91AF30C-0A2A-4B17-94C8-A2896ACF5FBB}
+		{378E4DF9-A594-41D6-9C2B-18A5EB9EB3B4} = {F91AF30C-0A2A-4B17-94C8-A2896ACF5FBB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15CA4E4E-3160-42FF-A98B-DDF236813C22}
+	EndGlobalSection
+EndGlobal

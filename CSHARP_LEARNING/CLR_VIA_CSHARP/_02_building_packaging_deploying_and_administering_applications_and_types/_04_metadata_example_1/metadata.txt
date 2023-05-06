@@ -1,0 +1,428 @@
+===========================================================
+ScopeName : toCheckMetadata.netmodule
+MVID      : {6ED4ECB3-7A44-4AA0-A326-FF3EB2D780F5}
+===========================================================
+Global functions
+-------------------------------------------------------
+
+Global fields
+-------------------------------------------------------
+
+Global MemberRefs
+-------------------------------------------------------
+
+TypeDef #1 (02000002)
+-------------------------------------------------------
+	TypDefName: Checker  (02000002)
+	Flags     : [Public] [AutoLayout] [Class] [AnsiClass] [BeforeFieldInit]  (00100001)
+	Extends   : 01000001 [TypeRef] System.Object
+	Field #1 (04000001)
+	-------------------------------------------------------
+		Field Name: Notify (04000001)
+		Flags     : [Private]  (00000001)
+		CallCnvntn: [FIELD]
+		Field type:  Class AccountHandler
+
+	Field #2 (04000002)
+	-------------------------------------------------------
+		Field Name: field (04000002)
+		Flags     : [Public]  (00000006)
+		CallCnvntn: [FIELD]
+		Field type:  I4
+
+	Field #3 (04000003)
+	-------------------------------------------------------
+		Field Name: <Property>k__BackingField (04000003)
+		Flags     : [Private]  (00000001)
+		CallCnvntn: [FIELD]
+		Field type:  I4
+		CustomAttribute #1 (0c000001)
+		-------------------------------------------------------
+			CustomAttribute Type: 0a000006
+			CustomAttributeName: System.Runtime.CompilerServices.CompilerGeneratedAttribute :: instance void .ctor()
+			Length: 4
+			Value : 01 00 00 00                                      >                <
+			ctor args: ()
+
+
+	Method #1 (06000001) 
+	-------------------------------------------------------
+		MethodName: add_Notify (06000001)
+		Flags     : [Private] [HideBySig] [ReuseSlot] [SpecialName]  (00000881)
+		RVA       : 0x00002050
+		ImplFlags : [IL] [Managed]  (00000000)
+		CallCnvntn: [DEFAULT]
+		hasThis 
+		ReturnType: Void
+		1 Arguments
+			Argument #1:  Class AccountHandler
+		1 Parameters
+			(1) ParamToken : (08000001) Name : value flags: [none] (00000000)
+
+	Method #2 (06000002) 
+	-------------------------------------------------------
+		MethodName: remove_Notify (06000002)
+		Flags     : [Private] [HideBySig] [ReuseSlot] [SpecialName]  (00000881)
+		RVA       : 0x0000208c
+		ImplFlags : [IL] [Managed]  (00000000)
+		CallCnvntn: [DEFAULT]
+		hasThis 
+		ReturnType: Void
+		1 Arguments
+			Argument #1:  Class AccountHandler
+		1 Parameters
+			(1) ParamToken : (08000002) Name : value flags: [none] (00000000)
+
+	Method #3 (06000003) 
+	-------------------------------------------------------
+		MethodName: .ctor (06000003)
+		Flags     : [Public] [HideBySig] [ReuseSlot] [SpecialName] [RTSpecialName] [.ctor]  (00001886)
+		RVA       : 0x000020c8
+		ImplFlags : [IL] [Managed]  (00000000)
+		CallCnvntn: [DEFAULT]
+		hasThis 
+		ReturnType: Void
+		2 Arguments
+			Argument #1:  I4
+			Argument #2:  I4
+		2 Parameters
+			(1) ParamToken : (08000003) Name : prop flags: [none] (00000000)
+			(2) ParamToken : (08000004) Name : field flags: [none] (00000000)
+
+	Method #4 (06000004) 
+	-------------------------------------------------------
+		MethodName: get_Property (06000004)
+		Flags     : [Public] [HideBySig] [ReuseSlot] [SpecialName]  (00000886)
+		RVA       : 0x000020e4
+		ImplFlags : [IL] [Managed]  (00000000)
+		CallCnvntn: [DEFAULT]
+		hasThis 
+		ReturnType: I4
+		No arguments.
+		CustomAttribute #1 (0c000002)
+		-------------------------------------------------------
+			CustomAttribute Type: 0a000006
+			CustomAttributeName: System.Runtime.CompilerServices.CompilerGeneratedAttribute :: instance void .ctor()
+			Length: 4
+			Value : 01 00 00 00                                      >                <
+			ctor args: ()
+
+
+	Method #5 (06000005) 
+	-------------------------------------------------------
+		MethodName: set_Property (06000005)
+		Flags     : [Public] [HideBySig] [ReuseSlot] [SpecialName]  (00000886)
+		RVA       : 0x000020fb
+		ImplFlags : [IL] [Managed]  (00000000)
+		CallCnvntn: [DEFAULT]
+		hasThis 
+		ReturnType: Void
+		1 Arguments
+			Argument #1:  I4
+		1 Parameters
+			(1) ParamToken : (08000005) Name : value flags: [none] (00000000)
+		CustomAttribute #1 (0c000003)
+		-------------------------------------------------------
+			CustomAttribute Type: 0a000006
+			CustomAttributeName: System.Runtime.CompilerServices.CompilerGeneratedAttribute :: instance void .ctor()
+			Length: 4
+			Value : 01 00 00 00                                      >                <
+			ctor args: ()
+
+
+	Method #6 (06000006) 
+	-------------------------------------------------------
+		MethodName: DisplayStatus (06000006)
+		Flags     : [Public] [HideBySig] [ReuseSlot]  (00000086)
+		RVA       : 0x00002104
+		ImplFlags : [IL] [Managed]  (00000000)
+		CallCnvntn: [DEFAULT]
+		hasThis 
+		ReturnType: Void
+		1 Arguments
+			Argument #1:  Boolean
+		1 Parameters
+			(1) ParamToken : (08000006) Name : showField flags: [Optional] [HasDefault]  (00001010) Default: (Boolean) 1
+
+	Method #7 (06000007) 
+	-------------------------------------------------------
+		MethodName: Put (06000007)
+		Flags     : [Public] [HideBySig] [ReuseSlot]  (00000086)
+		RVA       : 0x00002138
+		ImplFlags : [IL] [Managed]  (00000000)
+		CallCnvntn: [DEFAULT]
+		hasThis 
+		ReturnType: Void
+		1 Arguments
+			Argument #1:  I4
+		1 Parameters
+			(1) ParamToken : (08000007) Name : sum flags: [none] (00000000)
+
+	Property #1 (17000001)
+	-------------------------------------------------------
+		Prop.Name : Property (17000001)
+		Flags     : [none] (00000000)
+		CallCnvntn: [PROPERTY]
+		hasThis 
+		ReturnType: I4
+		No arguments.
+		DefltValue: 
+		Setter    : (06000005) set_Property
+		Getter    : (06000004) get_Property
+		0 Others
+
+	Event #1 (14000001)
+	-------------------------------------------------------
+		Name      : Notify (14000001)
+		Flags     : [none] (00000000)
+		EventType : 02000003 [TypeDef]
+		AddOnMethd: (06000001) add_Notify
+		RmvOnMethd: (06000002) remove_Notify
+		FireMethod: (06000000) 
+		0 OtherMethods
+
+
+TypeDef #2 (02000003)
+-------------------------------------------------------
+	TypDefName: AccountHandler  (02000003)
+	Flags     : [NestedPrivate] [AutoLayout] [Class] [Sealed] [AnsiClass]  (00000103)
+	Extends   : 01000002 [TypeRef] System.MulticastDelegate
+	EnclosingClass : Checker (02000002)
+	Method #1 (06000008) 
+	-------------------------------------------------------
+		MethodName: .ctor (06000008)
+		Flags     : [Public] [HideBySig] [ReuseSlot] [SpecialName] [RTSpecialName] [.ctor]  (00001886)
+		RVA       : 0x00000000
+		ImplFlags : [Runtime] [Managed]  (00000003)
+		CallCnvntn: [DEFAULT]
+		hasThis 
+		ReturnType: Void
+		2 Arguments
+			Argument #1:  Object
+			Argument #2:  I
+		2 Parameters
+			(1) ParamToken : (08000008) Name : object flags: [none] (00000000)
+			(2) ParamToken : (08000009) Name : method flags: [none] (00000000)
+
+	Method #2 (06000009) 
+	-------------------------------------------------------
+		MethodName: Invoke (06000009)
+		Flags     : [Public] [Virtual] [HideBySig] [NewSlot]  (000001c6)
+		RVA       : 0x00000000
+		ImplFlags : [Runtime] [Managed]  (00000003)
+		CallCnvntn: [DEFAULT]
+		hasThis 
+		ReturnType: Void
+		1 Arguments
+			Argument #1:  String
+		1 Parameters
+			(1) ParamToken : (0800000a) Name : message flags: [none] (00000000)
+
+	Method #3 (0600000a) 
+	-------------------------------------------------------
+		MethodName: BeginInvoke (0600000A)
+		Flags     : [Public] [Virtual] [HideBySig] [NewSlot]  (000001c6)
+		RVA       : 0x00000000
+		ImplFlags : [Runtime] [Managed]  (00000003)
+		CallCnvntn: [DEFAULT]
+		hasThis 
+		ReturnType: Class System.IAsyncResult
+		3 Arguments
+			Argument #1:  String
+			Argument #2:  Class System.AsyncCallback
+			Argument #3:  Object
+		3 Parameters
+			(1) ParamToken : (0800000b) Name : message flags: [none] (00000000)
+			(2) ParamToken : (0800000c) Name : callback flags: [none] (00000000)
+			(3) ParamToken : (0800000d) Name : object flags: [none] (00000000)
+
+	Method #4 (0600000b) 
+	-------------------------------------------------------
+		MethodName: EndInvoke (0600000B)
+		Flags     : [Public] [Virtual] [HideBySig] [NewSlot]  (000001c6)
+		RVA       : 0x00000000
+		ImplFlags : [Runtime] [Managed]  (00000003)
+		CallCnvntn: [DEFAULT]
+		hasThis 
+		ReturnType: Void
+		1 Arguments
+			Argument #1:  Class System.IAsyncResult
+		1 Parameters
+			(1) ParamToken : (0800000e) Name : result flags: [none] (00000000)
+
+
+TypeRef #1 (01000001)
+-------------------------------------------------------
+Token:             0x01000001
+ResolutionScope:   0x23000001
+TypeRefName:       System.Object
+	MemberRef #1 (0a000005)
+	-------------------------------------------------------
+		Member: (0a000005) .ctor: 
+		CallCnvntn: [DEFAULT]
+		hasThis 
+		ReturnType: Void
+		No arguments.
+
+TypeRef #2 (01000002)
+-------------------------------------------------------
+Token:             0x01000002
+ResolutionScope:   0x23000001
+TypeRefName:       System.MulticastDelegate
+
+TypeRef #3 (01000003)
+-------------------------------------------------------
+Token:             0x01000003
+ResolutionScope:   0x23000001
+TypeRefName:       System.IAsyncResult
+
+TypeRef #4 (01000004)
+-------------------------------------------------------
+Token:             0x01000004
+ResolutionScope:   0x23000001
+TypeRefName:       System.AsyncCallback
+
+TypeRef #5 (01000005)
+-------------------------------------------------------
+Token:             0x01000005
+ResolutionScope:   0x23000001
+TypeRefName:       System.Runtime.CompilerServices.RuntimeCompatibilityAttribute
+	MemberRef #1 (0a000001)
+	-------------------------------------------------------
+		Member: (0a000001) .ctor: 
+		CallCnvntn: [DEFAULT]
+		hasThis 
+		ReturnType: Void
+		No arguments.
+
+TypeRef #6 (01000006)
+-------------------------------------------------------
+Token:             0x01000006
+ResolutionScope:   0x23000001
+TypeRefName:       System.Runtime.CompilerServices.AssemblyAttributesGoHere
+	CustomAttribute #1 (0c000004)
+	-------------------------------------------------------
+		CustomAttribute Type: 0a000001
+		CustomAttributeName: System.Runtime.CompilerServices.RuntimeCompatibilityAttribute :: instance void .ctor()
+		Length: 30
+		Value : 01 00 01 00 54 02 16 57  72 61 70 4e 6f 6e 45 78 >    T  WrapNonEx<
+                      : 63 65 70 74 69 6f 6e 54  68 72 6f 77 73 01       >ceptionThrows   <
+		ctor args: ()
+
+
+TypeRef #7 (01000007)
+-------------------------------------------------------
+Token:             0x01000007
+ResolutionScope:   0x23000001
+TypeRefName:       System.Delegate
+	MemberRef #1 (0a000002)
+	-------------------------------------------------------
+		Member: (0a000002) Combine: 
+		CallCnvntn: [DEFAULT]
+		ReturnType: Class System.Delegate
+		2 Arguments
+			Argument #1:  Class System.Delegate
+			Argument #2:  Class System.Delegate
+	MemberRef #2 (0a000004)
+	-------------------------------------------------------
+		Member: (0a000004) Remove: 
+		CallCnvntn: [DEFAULT]
+		ReturnType: Class System.Delegate
+		2 Arguments
+			Argument #1:  Class System.Delegate
+			Argument #2:  Class System.Delegate
+
+TypeRef #8 (01000008)
+-------------------------------------------------------
+Token:             0x01000008
+ResolutionScope:   0x23000001
+TypeRefName:       System.Threading.Interlocked
+	MemberRef #1 (0a000003)
+	-------------------------------------------------------
+		Member: (0a000003) CompareExchange: 
+		CallCnvntn: [DEFAULT]
+		generic 
+		Type Arity:1 
+		ReturnType: MVar!!0
+		3 Arguments
+			Argument #1:  ByRef MVar!!0
+			Argument #2:  MVar!!0
+			Argument #3:  MVar!!0
+
+TypeRef #9 (01000009)
+-------------------------------------------------------
+Token:             0x01000009
+ResolutionScope:   0x23000001
+TypeRefName:       System.Runtime.CompilerServices.CompilerGeneratedAttribute
+	MemberRef #1 (0a000006)
+	-------------------------------------------------------
+		Member: (0a000006) .ctor: 
+		CallCnvntn: [DEFAULT]
+		hasThis 
+		ReturnType: Void
+		No arguments.
+
+TypeRef #10 (0100000a)
+-------------------------------------------------------
+Token:             0x0100000a
+ResolutionScope:   0x23000001
+TypeRefName:       System.Console
+	MemberRef #1 (0a000007)
+	-------------------------------------------------------
+		Member: (0a000007) WriteLine: 
+		CallCnvntn: [DEFAULT]
+		ReturnType: Void
+		1 Arguments
+			Argument #1:  I4
+
+MethodSpec #1 (2b000001)
+	Parent   : 0x0a000003
+		CallCnvntn: [GENERICINST]
+		1 Arguments
+			Argument #1:  Class AccountHandler
+
+Signature #1 (0x11000001)
+-------------------------------------------------------
+		CallCnvntn: [LOCALSIG]
+		4 Arguments
+			Argument #1:  Class AccountHandler
+			Argument #2:  Class AccountHandler
+			Argument #3:  Class AccountHandler
+			Argument #4:  Boolean
+
+Signature #2 (0x11000002)
+-------------------------------------------------------
+		CallCnvntn: [LOCALSIG]
+		1 Arguments
+			Argument #1:  I4
+
+Signature #3 (0x11000003)
+-------------------------------------------------------
+		CallCnvntn: [LOCALSIG]
+		1 Arguments
+			Argument #1:  Boolean
+
+AssemblyRef #1 (23000001)
+-------------------------------------------------------
+	Token: 0x23000001
+	Public Key or Token: b7 7a 5c 56 19 34 e0 89 
+	Name: mscorlib
+	Version: 4.0.0.0
+	Major Version: 0x00000004
+	Minor Version: 0x00000000
+	Build Number: 0x00000000
+	Revision Number: 0x00000000
+	Locale: <null>
+	HashValue Blob:
+	Flags: [none] (00000000)
+
+
+User Strings
+-------------------------------------------------------
+70000001 : ( 1) L" "
+
+
+Coff symbol name overhead:  0
+===========================================================
+===========================================================
+===========================================================
