@@ -86,17 +86,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_03_delayed_signing", "_03_
 		CSHARP_LEARNING\CLR_VIA_CSHARP\_03_shared_assemblies_and_strongly_named_assemblies\_03_delayed_signing\Test.snk = CSHARP_LEARNING\CLR_VIA_CSHARP\_03_shared_assemblies_and_strongly_named_assemblies\_03_delayed_signing\Test.snk
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_01_all_types_inherited_from_the_object", "CSHARP_LEARNING\CLR_VIA_CSHARP\_04_type_fundamentals\_01_all_types_inherited_from_the_object\_01_all_types_inherited_from_the_object.csproj", "{5822CC71-2C9B-4D72-9637-76CA2F1E2082}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_01_all_types_inherited_from_the_object", "CSHARP_LEARNING\CLR_VIA_CSHARP\_04_type_fundamentals\_01_all_types_inherited_from_the_object\_01_all_types_inherited_from_the_object.csproj", "{5822CC71-2C9B-4D72-9637-76CA2F1E2082}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_02_new_operation", "CSHARP_LEARNING\CLR_VIA_CSHARP\_04_type_fundamentals\_02_new_operation\_02_new_operation.csproj", "{3E57F413-0FE5-4A32-9E5D-0641E8B5A1FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_02_new_operation", "CSHARP_LEARNING\CLR_VIA_CSHARP\_04_type_fundamentals\_02_new_operation\_02_new_operation.csproj", "{3E57F413-0FE5-4A32-9E5D-0641E8B5A1FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_03_typecasting", "CSHARP_LEARNING\CLR_VIA_CSHARP\_04_type_fundamentals\_03_typecasting\_03_typecasting.csproj", "{647EE506-2B17-412A-8839-40FDB2AD9DE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_03_typecasting", "CSHARP_LEARNING\CLR_VIA_CSHARP\_04_type_fundamentals\_03_typecasting\_03_typecasting.csproj", "{647EE506-2B17-412A-8839-40FDB2AD9DE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_04_is_as_casting", "CSHARP_LEARNING\CLR_VIA_CSHARP\_04_type_fundamentals\_04_is_as_casting\_04_is_as_casting.csproj", "{643001DC-8607-4582-824D-61C96653D866}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_04_is_as_casting", "CSHARP_LEARNING\CLR_VIA_CSHARP\_04_type_fundamentals\_04_is_as_casting\_04_is_as_casting.csproj", "{643001DC-8607-4582-824D-61C96653D866}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_05_howthings_relate_at_runtime_stack_example_1", "CSHARP_LEARNING\CLR_VIA_CSHARP\_04_type_fundamentals\_05_howthings_relate_at_runtime_stack_example_1\_05_howthings_relate_at_runtime_stack_example_1.csproj", "{B60973AA-7F9D-4D96-A90C-52F6EFF2368D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_05_how_things_relate_at_runtime_stack_example_1", "CSHARP_LEARNING\CLR_VIA_CSHARP\_04_type_fundamentals\_05_howthings_relate_at_runtime_stack_example_1\_05_how_things_relate_at_runtime_stack_example_1.csproj", "{B60973AA-7F9D-4D96-A90C-52F6EFF2368D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_06_howthings_relate_at_runtime_stack_example_2", "CSHARP_LEARNING\CLR_VIA_CSHARP\_04_type_fundamentals\_06_howthings_relate_at_runtime_stack_example_2\_06_howthings_relate_at_runtime_stack_example_2.csproj", "{378E4DF9-A594-41D6-9C2B-18A5EB9EB3B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_06_how_things_relate_at_runtime_stack_example_2", "CSHARP_LEARNING\CLR_VIA_CSHARP\_04_type_fundamentals\_06_howthings_relate_at_runtime_stack_example_2\_06_how_things_relate_at_runtime_stack_example_2.csproj", "{378E4DF9-A594-41D6-9C2B-18A5EB9EB3B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
