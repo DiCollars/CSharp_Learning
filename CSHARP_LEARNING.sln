@@ -98,6 +98,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_05_how_things_relate_at_ru
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_06_how_things_relate_at_runtime_stack_example_2", "CSHARP_LEARNING\CLR_VIA_CSHARP\_04_type_fundamentals\_06_howthings_relate_at_runtime_stack_example_2\_06_how_things_relate_at_runtime_stack_example_2.csproj", "{378E4DF9-A594-41D6-9C2B-18A5EB9EB3B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_01_casting_implicit_explicit_convertions", "CSHARP_LEARNING\CLR_VIA_CSHARP\_05_primitive_reference_and_value_types\_01_casting_implicit_explicit_convertions\_01_casting_implicit_explicit_convertions.csproj", "{2909977A-6ACE-4DB4-9808-C3E365C4B153}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tricky_questions", "Tricky_questions", "{B374A91C-7C1E-4370-91FA-2847AF4D0D37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_01_double_while", "CSHARP_LEARNING\Tricky_questions\_01_double_while\_01_double_while.csproj", "{07855F41-D536-485D-8E9E-553B7D86B606}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -128,6 +134,14 @@ Global
 		{378E4DF9-A594-41D6-9C2B-18A5EB9EB3B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{378E4DF9-A594-41D6-9C2B-18A5EB9EB3B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{378E4DF9-A594-41D6-9C2B-18A5EB9EB3B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2909977A-6ACE-4DB4-9808-C3E365C4B153}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2909977A-6ACE-4DB4-9808-C3E365C4B153}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2909977A-6ACE-4DB4-9808-C3E365C4B153}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2909977A-6ACE-4DB4-9808-C3E365C4B153}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07855F41-D536-485D-8E9E-553B7D86B606}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07855F41-D536-485D-8E9E-553B7D86B606}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07855F41-D536-485D-8E9E-553B7D86B606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07855F41-D536-485D-8E9E-553B7D86B606}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -151,6 +165,8 @@ Global
 		{643001DC-8607-4582-824D-61C96653D866} = {F91AF30C-0A2A-4B17-94C8-A2896ACF5FBB}
 		{B60973AA-7F9D-4D96-A90C-52F6EFF2368D} = {F91AF30C-0A2A-4B17-94C8-A2896ACF5FBB}
 		{378E4DF9-A594-41D6-9C2B-18A5EB9EB3B4} = {F91AF30C-0A2A-4B17-94C8-A2896ACF5FBB}
+		{2909977A-6ACE-4DB4-9808-C3E365C4B153} = {C0872639-D7BF-4D5E-BC89-6891C8144892}
+		{07855F41-D536-485D-8E9E-553B7D86B606} = {B374A91C-7C1E-4370-91FA-2847AF4D0D37}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {15CA4E4E-3160-42FF-A98B-DDF236813C22}
