@@ -1,0 +1,11 @@
+﻿@model Data
+@{
+    ViewData["Title"] = "Colors Page";
+}
+
+<div class="text-center">
+    @foreach(var color in Model.Colors)
+    {
+        <p>@color</p>
+    }
+</div>
