@@ -1,0 +1,5 @@
+SOA means that you structure your application by decomposing it into multiple services 
+(most commonly as HTTP services) that can be classified as different types like subsystems or tiers.
+That application should not show how it works inside - client or other service can work obly with external interface,
+service must introduce the interface and rules of interaction. Also service should take care of data consistency and
+could fix themself without any help.
