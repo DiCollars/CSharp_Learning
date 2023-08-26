@@ -11,6 +11,8 @@ var tesCases = new List<int[]>
     new int[] { 9, 1, 2, 3, 4, 5, 6, 7, 8 },
     new int[] { 5, 6, 7, 8, 9, 1, 2, 3, 4 },
     new int[] { 478, 577, 578, 600, 800, 1000, 150, 220, 300 },
+    new int[] { -2, -1, 0, 1, 2, 3, 4, -5, -4, -3 },
+    new int[] { 5, 7, 9, 11, -7, 0, 2, 4 }
 };
 
 foreach (var tesCase in tesCases)
