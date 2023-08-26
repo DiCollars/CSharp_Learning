@@ -1,0 +1,12 @@
+CREATE TABLE Users 
+(
+	Id SERIAL PRIMARY KEY,
+	Name CHARACTER VARYING(60),
+	Age INTEGER
+);
+
+INSERT INTO Users (Name, Age)
+VALUES 
+('Danny', 25);
+
+SELECT * FROM Users;

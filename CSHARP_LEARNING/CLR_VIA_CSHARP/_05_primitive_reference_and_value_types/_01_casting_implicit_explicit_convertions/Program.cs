@@ -5,7 +5,7 @@ int seven2 = (int)7.1;
 Console.WriteLine(
     $"int seven0 = (int)7.9; //{seven0}\n" +
     $"int seven1 = (int)7.5; //{seven1}\n" +
-    $"int seven2 = (int)7.1; //{seven2}\n");
+    $"int seven2 = (int)7.1; //{seven2}\n");  
 
 //Literals are instances
 Console.WriteLine(128.ToString() + 555.ToString() + '\n');
@@ -24,10 +24,21 @@ try
 {
     byt = (byte)(byt + 156);
 }
-catch (Exception ex)
+catch (OverflowException ex)
 {
+    Console.WriteLine(ex.Message);
     Console.WriteLine("Byte + 156");
     Console.WriteLine("Byte value = " + byt + " cos byte capacity is 0 - 255 (256)");
+}
+
+UInt64 lo = UInt64.MaxValue; //18_446_744_073_709_551_615
+try
+{
+    lo = (UInt64)(lo + UInt64.MaxValue);
+}
+catch (OverflowException ex)
+{
+    Console.WriteLine(ex.Message);
 }
 
 //If you want to - you can change the overflow check option by unchecked\checked

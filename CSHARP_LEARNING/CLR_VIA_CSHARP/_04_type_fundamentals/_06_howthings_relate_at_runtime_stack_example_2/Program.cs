@@ -55,7 +55,7 @@ class Manager : Employee
 }
 
 //1. Jit-compiler identify all types inside Method_3 (Int32, Manager, Employee, String, Object, Type)
-//and CLR will load all appropriate  assemblies then using metadata CLR create type-objects.
+//and CLR will load all appropriate assemblies then using metadata CLR create type-objects.
 //As a example we show only Employee and Manager types creating type-objects in the heap.
 //So type-object includes type-object-pointer, sync-block-index and all static fields.
 //Also type-object contains methods table with entry points 

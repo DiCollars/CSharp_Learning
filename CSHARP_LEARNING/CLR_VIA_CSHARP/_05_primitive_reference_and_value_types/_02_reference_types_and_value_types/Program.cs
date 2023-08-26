@@ -31,6 +31,9 @@ class SomeRef { public Int32 x; }
 // Value type (because of 'struct')
 struct SomeVal { public Int32 x; }
 
+//internal sealed class MyValueType : ValueType //cannot derive from special class!
+//{ }
+
 //When you should use value-types instead of reference-types:
 //1. When your type have no state-changing methods (immutable) - recomended rule
 //      - is to mark all instances-fields as readonly.

@@ -1,22 +1,27 @@
 ﻿using System;
+
 // Point is a value type.
 internal struct Point
 {
     private Int32 m_x, m_y;
+
     public Point(Int32 x, Int32 y)
     {
         m_x = x;
         m_y = y;
     }
+
     public void Change(Int32 x, Int32 y)
     {
         m_x = x; m_y = y;
     }
+
     public override String ToString()
     {
         return String.Format("({0}, {1})", m_x.ToString(), m_y.ToString());
     }
 }
+
 public sealed class Program
 {
     public static void Main()
@@ -33,6 +38,10 @@ public sealed class Program
         // at this moment - Point unboxed in temporary value in the stack
         ((Point)o).Change(3, 3); //unboxing
         Console.WriteLine(o);
+
+        var temp = ((Point)o);
+        temp.Change(4, 4);
+        Console.WriteLine(temp);
 
         //  .method public hidebysig static void Main() cil managed
         //    {
