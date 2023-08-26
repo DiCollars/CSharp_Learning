@@ -1,57 +1,57 @@
-﻿var tesCases = new List<int[]> 
+﻿//Find the broken index in array using binary search
+
+var tesCases = new List<int[]> 
 {
     new int[] { 755, 988, 1050, 1, 4, 6, 9, 12, 33, 67, 109, 586, 666, 700 },
     new int[] { 586, 666, 700, 755, 988, 1050, 1, 4, 6, 9, 12, 33, 67, 109 },
-    new int[] { 33, 67, 109, 586, 666, 700, 755, 988, 1050, 1, 4, 6, 9, 12, }
+    new int[] { 33, 67, 109, 586, 666, 700, 755, 988, 1050, 1, 4, 6, 9, 12, },
+    new int[] { 4, 5, 6, 7, 8, 9, 1, 2, 3 },
+    new int[] { 7, 8, 9, 1, 2, 3, 4, 5, 6 },
+    new int[] { 2, 3, 4, 5, 6, 7, 8, 9, 1 },
+    new int[] { 9, 1, 2, 3, 4, 5, 6, 7, 8 },
+    new int[] { 5, 6, 7, 8, 9, 1, 2, 3, 4 },
+    new int[] { 478, 577, 578, 600, 800, 1000, 150, 220, 300 },
 };
 
 foreach (var tesCase in tesCases)
 {
-    var rotateNumber = GetRotationPoint(tesCase);
-    Console.WriteLine(rotateNumber);
+    var index = BinarySearchIndex(tesCase, tesCase[0], 0, tesCase.Length - 1);
+    var value = tesCase[index];
+    Console.WriteLine($"array[{index}] == {value}");
 }
 
-int GetRotationPoint(int[] nums)
+int BinarySearchIndex(int[] nums, int leftValue, int first, int last)
 {
-    // your code
+    var midIndex = (first + last) / 2;
+    var midEl = nums[midIndex];
+
+    if (IsBroken(nums, midIndex))
+    {
+        return midIndex;
+    }
+    else
+    {
+        if (leftValue > midEl)
+        {
+            return BinarySearchIndex(nums, midEl, first, midIndex - 1);
+        }
+        else
+        {
+            return BinarySearchIndex(nums, midEl, midIndex + 1, last);
+        }
+    }
 }
 
-//var array = new int[] { 1, 4, 6, 9, 12, 33, 67, 109, 586 };
-//var elementForSearch = 1;
+bool IsBroken(int[] nums, int elIndex)
+{
+    var leftNeighbrIndex = elIndex - 1;
 
-//int startIndex = 0;
-//int endIndex = array.Length - 1;
-
-//int result = int.MinValue;
-
-//var iteration = 1;
-
-//while (startIndex <= endIndex)
-//{
-//    Console.WriteLine($"Iteration: {iteration}");
-//    iteration++;
-
-//    var arrayHalfIndex = (endIndex + startIndex) / 2;
-//    var middle = array[arrayHalfIndex];
-
-//    if (middle == elementForSearch)
-//    {
-//        startIndex = arrayHalfIndex;
-//        endIndex = arrayHalfIndex;
-
-//        result = arrayHalfIndex;
-//        break;
-//    }
-
-//    if (middle > elementForSearch)
-//    {
-//        endIndex = arrayHalfIndex - 1;
-//    }
-
-//    if (middle < elementForSearch)
-//    {
-//        startIndex = arrayHalfIndex + 1;
-//    }
-//}
-
-//Console.WriteLine(result);
+    if(leftNeighbrIndex >= 0)
+    {
+        return nums[elIndex] < nums[leftNeighbrIndex];
+    }
+    else
+    {
+        return false;
+    }
+}

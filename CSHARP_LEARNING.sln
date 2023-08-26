@@ -186,7 +186,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadPoolTest", "CSHARP_LE
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Algorithms", "Algorithms", "{674D2755-C1FB-4F1A-911C-232DCEEC4EF7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BynarySearch", "CSHARP_LEARNING\Algorithms\BynarySearch\BynarySearch.csproj", "{1796EBA4-EA3E-458B-8D59-C892CC879B24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BynarySearchBrokenArray", "CSHARP_LEARNING\Algorithms\BynarySearch\BynarySearchBrokenArray.csproj", "{1796EBA4-EA3E-458B-8D59-C892CC879B24}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_03_ienumerable_task", "CSHARP_LEARNING\Tricky_questions\_03_ienumerable_task\_03_ienumerable_task.csproj", "{BDE97F33-54FF-490C-B605-1068C5134339}"
 EndProject
