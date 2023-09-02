@@ -12,14 +12,37 @@ var tesCases = new List<int[]>
     new int[] { 5, 6, 7, 8, 9, 1, 2, 3, 4 },
     new int[] { 478, 577, 578, 600, 800, 1000, 150, 220, 300 },
     new int[] { -2, -1, 0, 1, 2, 3, 4, -5, -4, -3 },
-    new int[] { 5, 7, 9, 11, -7, 0, 2, 4 }
+    new int[] { 5, 7, 9, 11, -7, 0, 2, 4 },
+
+    new int[] { 5, 1, 2, 3, 4 },
+    //          0     x  <  0 == true - go left
+
+    new int[] { 3, 4, 5, 1, 2 }
+    //          0     x  <  0 == false - go right
 };
 
 foreach (var tesCase in tesCases)
 {
-    var index = BinarySearchIndex(tesCase, tesCase[0], 0, tesCase.Length - 1);
-    var value = tesCase[index];
-    Console.WriteLine($"array[{index}] == {value}");
+    //var index = BinarySearchIndex(tesCase, tesCase[0], 0, tesCase.Length - 1);
+    var index = GetRotationPointBinary(tesCase);
+    Console.WriteLine(index);
+    //var value = tesCase[index];
+    //Console.WriteLine($"array[{index}] == {value}");
+}
+
+int GetRotationPointBinary(int[] nums)
+{
+    var li = 0; var ri = nums.Length - 1;
+    while (li < ri)
+    {
+        var center = li + (ri - li) / 2;
+        if (nums[center] > nums[ri])
+            li = center + 1;
+        else
+            ri = center;
+    }
+
+    return nums[li];
 }
 
 int BinarySearchIndex(int[] nums, int leftValue, int first, int last)
