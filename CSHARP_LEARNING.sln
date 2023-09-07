@@ -278,17 +278,29 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_04_explicit_and_implicit_c
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_05_extension_methods", "CSHARP_LEARNING\CLR_VIA_CSHARP\_08_methods\_05_extension_methods\_05_extension_methods.csproj", "{19A4126D-E403-4425-84F7-28FDBB9D8D14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_06_extension_attributes", "CSHARP_LEARNING\CLR_VIA_CSHARP\_08_methods\_06_extension_attributes\_06_extension_attributes.csproj", "{EDB0545C-F887-4C1A-B07B-B2B6227C0AE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_06_extension_attributes", "CSHARP_LEARNING\CLR_VIA_CSHARP\_08_methods\_06_extension_attributes\_06_extension_attributes.csproj", "{EDB0545C-F887-4C1A-B07B-B2B6227C0AE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_09_partial_methods", "CSHARP_LEARNING\CLR_VIA_CSHARP\_08_methods\_09_partial_methods\_09_partial_methods.csproj", "{60AED88F-D6E6-47AD-A0F5-EADC26F4A494}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_09_partial_methods", "CSHARP_LEARNING\CLR_VIA_CSHARP\_08_methods\_09_partial_methods\_09_partial_methods.csproj", "{60AED88F-D6E6-47AD-A0F5-EADC26F4A494}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_09_parameters", "_09_parameters", "{82CADC0D-C2F8-4C20-9320-2D4E29B9E64C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_01_default_and_named_parameters", "CSHARP_LEARNING\CLR_VIA_CSHARP\_09_parameters\_01_default_and_named_parameters\_01_default_and_named_parameters.csproj", "{6899CD9E-BD08-4F33-8C47-C0090FF4184D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_01_default_and_named_parameters", "CSHARP_LEARNING\CLR_VIA_CSHARP\_09_parameters\_01_default_and_named_parameters\_01_default_and_named_parameters.csproj", "{6899CD9E-BD08-4F33-8C47-C0090FF4184D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_02_implicit_local_variables", "CSHARP_LEARNING\CLR_VIA_CSHARP\_09_parameters\_02_implicit_local_variables\_02_implicit_local_variables.csproj", "{6D5DEC52-7E5F-4A30-887B-98305F8CEC9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_02_implicit_local_variables", "CSHARP_LEARNING\CLR_VIA_CSHARP\_09_parameters\_02_implicit_local_variables\_02_implicit_local_variables.csproj", "{6D5DEC52-7E5F-4A30-887B-98305F8CEC9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_03_ref_parameters", "CSHARP_LEARNING\CLR_VIA_CSHARP\_09_parameters\_03_ref_parameters\_03_ref_parameters.csproj", "{08A1A61A-F0C7-43E2-9EF0-E5C64DFB1900}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_03_ref_parameters", "CSHARP_LEARNING\CLR_VIA_CSHARP\_09_parameters\_03_ref_parameters\_03_ref_parameters.csproj", "{08A1A61A-F0C7-43E2-9EF0-E5C64DFB1900}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_04_params", "CSHARP_LEARNING\CLR_VIA_CSHARP\_09_parameters\_04_params\_04_params.csproj", "{ADCD0B4C-3D98-4AE3-9235-0C31D8036CAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_10_properties", "_10_properties", "{CD356DB0-411D-414A-AFD9-91F4746BDC67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_01_properties_without_parameters", "CSHARP_LEARNING\CLR_VIA_CSHARP\_10_properties\_01_properties_without_parameters\_01_properties_without_parameters.csproj", "{EB0E0BB5-6C7D-490B-AA64-7491965AFD18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_02_anonim_types", "CSHARP_LEARNING\CLR_VIA_CSHARP\_10_properties\_02_initializing\_02_anonim_types\_02_anonim_types.csproj", "{D693A7DE-38D4-41A7-87B4-E2A0D941603A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_03_tuples", "CSHARP_LEARNING\CLR_VIA_CSHARP\_10_properties\_03_tuples\_03_tuples.csproj", "{07E0E858-90E6-4F15-AF97-54AD8B503339}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_04_indexators", "CSHARP_LEARNING\CLR_VIA_CSHARP\_10_properties\_04_indexators\_04_indexators.csproj", "{E45DCB6A-B700-4B96-ABD8-EDF1D58C4FB8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -568,6 +580,26 @@ Global
 		{08A1A61A-F0C7-43E2-9EF0-E5C64DFB1900}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08A1A61A-F0C7-43E2-9EF0-E5C64DFB1900}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08A1A61A-F0C7-43E2-9EF0-E5C64DFB1900}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADCD0B4C-3D98-4AE3-9235-0C31D8036CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADCD0B4C-3D98-4AE3-9235-0C31D8036CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADCD0B4C-3D98-4AE3-9235-0C31D8036CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADCD0B4C-3D98-4AE3-9235-0C31D8036CAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB0E0BB5-6C7D-490B-AA64-7491965AFD18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB0E0BB5-6C7D-490B-AA64-7491965AFD18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB0E0BB5-6C7D-490B-AA64-7491965AFD18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB0E0BB5-6C7D-490B-AA64-7491965AFD18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D693A7DE-38D4-41A7-87B4-E2A0D941603A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D693A7DE-38D4-41A7-87B4-E2A0D941603A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D693A7DE-38D4-41A7-87B4-E2A0D941603A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D693A7DE-38D4-41A7-87B4-E2A0D941603A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07E0E858-90E6-4F15-AF97-54AD8B503339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07E0E858-90E6-4F15-AF97-54AD8B503339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07E0E858-90E6-4F15-AF97-54AD8B503339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07E0E858-90E6-4F15-AF97-54AD8B503339}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E45DCB6A-B700-4B96-ABD8-EDF1D58C4FB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E45DCB6A-B700-4B96-ABD8-EDF1D58C4FB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E45DCB6A-B700-4B96-ABD8-EDF1D58C4FB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E45DCB6A-B700-4B96-ABD8-EDF1D58C4FB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -662,6 +694,12 @@ Global
 		{6899CD9E-BD08-4F33-8C47-C0090FF4184D} = {82CADC0D-C2F8-4C20-9320-2D4E29B9E64C}
 		{6D5DEC52-7E5F-4A30-887B-98305F8CEC9D} = {82CADC0D-C2F8-4C20-9320-2D4E29B9E64C}
 		{08A1A61A-F0C7-43E2-9EF0-E5C64DFB1900} = {82CADC0D-C2F8-4C20-9320-2D4E29B9E64C}
+		{ADCD0B4C-3D98-4AE3-9235-0C31D8036CAC} = {82CADC0D-C2F8-4C20-9320-2D4E29B9E64C}
+		{CD356DB0-411D-414A-AFD9-91F4746BDC67} = {48DE6CF4-E9CC-493E-9639-0971B6A26A99}
+		{EB0E0BB5-6C7D-490B-AA64-7491965AFD18} = {CD356DB0-411D-414A-AFD9-91F4746BDC67}
+		{D693A7DE-38D4-41A7-87B4-E2A0D941603A} = {CD356DB0-411D-414A-AFD9-91F4746BDC67}
+		{07E0E858-90E6-4F15-AF97-54AD8B503339} = {CD356DB0-411D-414A-AFD9-91F4746BDC67}
+		{E45DCB6A-B700-4B96-ABD8-EDF1D58C4FB8} = {CD356DB0-411D-414A-AFD9-91F4746BDC67}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {15CA4E4E-3160-42FF-A98B-DDF236813C22}
