@@ -1,0 +1,6 @@
+@Learnings_File.Cleaner_HostAddress = http://localhost:5150
+
+GET {{Learnings_File.Cleaner_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
